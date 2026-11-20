@@ -1,0 +1,29 @@
+# Artefatos e arquivos locais
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Nunca versionar cópias de sistemas reais ou credenciais
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+secrets/
+backups/
+backup-*/
+originais/
+var/backups/
+etc/apt/
+*.tsv
